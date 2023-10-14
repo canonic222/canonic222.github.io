@@ -1,0 +1,67 @@
+.title-font{
+    font-family: 'PT Serif', serif;
+}
+
+.profile{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.skill{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.intro{
+   
+    width: 30%;
+    margin: auto;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.skill-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr) ;
+    width: 50%;
+    margin: 50px auto 0 auto ;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.img-box{
+    height: 200px;
+    width: 200px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:deepskyblue;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
