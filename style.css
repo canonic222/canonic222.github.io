@@ -10,7 +10,7 @@
 .skill{
     text-align: center;
     font-family: sans-serif;
-    width: 30%;
+    
 }
 
 .intro{
@@ -50,6 +50,7 @@ p{
 .img-box{
     height: 200px;
     width: 200px;
+    object-fit: cover;
     
 }
 
