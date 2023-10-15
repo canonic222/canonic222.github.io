@@ -38,8 +38,8 @@ p{
 
 .skill-box{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: repeat(auto-fill, 1fr) ;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: repeat(3, 200px) ;
     width: 50%;
     margin: 50px auto 0 auto ;
     text-align: left;
