@@ -30,7 +30,7 @@ p{
 
 .skill-box{
     display: grid;
-    grid-template-columns: 1.fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1, 1fr) ;
     height: 50%;
     width: 50%;
@@ -42,8 +42,8 @@ p{
 
 .img-box{
     
-    height:200px;
-    width: 200px;
+    height:50%;
+    width: 50%;
     object-fit: cover;
 }
 
