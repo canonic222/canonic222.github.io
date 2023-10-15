@@ -24,6 +24,8 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .parent {
@@ -38,9 +40,8 @@ p{
 
 .skill-box{
     display: grid;
-    height: 100vh;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: repeat(3, 200px) ;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3, 1fr) ;
     width: 50%;
     margin: 50px auto 0 auto ;
     text-align: left;
@@ -48,8 +49,8 @@ p{
 }
 
 .img-box{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 100%;
 }
 
 h2{
@@ -66,3 +67,48 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+.h3-subtitle{
+    padding-left:  1rem;
+    justify-content: left;
+
+}
+
+.p-text{
+    padding-left:1rem;
+}
+
+@media (min-width:320px)  {
+     /* smartphones, iPhone, portrait 480x320 phones */ 
+     .skill-box{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(3, 1fr) ;
+        width: 100%;
+        margin: 50px auto 0 auto ;
+        text-align: left;
+        row-gap: 2rem;
+    }  
+    
+    .intro{
+   
+        width: 30%;
+        margin: auto;
+    }
+
+
+    }
+
+@media (min-width:1281px) {
+     /* hi-res laptops and desktops */
+     .skill-box{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(3, 1fr) ;
+        width: 50%;
+        margin: 50px auto 0 auto ;
+        text-align: left;
+        row-gap: 2rem;
+    }
+
+     }
