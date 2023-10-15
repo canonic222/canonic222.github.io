@@ -33,7 +33,7 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1, 1fr) ;
     
-    width: 50%;
+    width: 100%;
     margin: 50px auto 0 auto ;
     text-align: left;
     row-gap: 2rem;
