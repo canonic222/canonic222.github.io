@@ -27,15 +27,6 @@ p{
     margin-inline-end: 0px;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: repeat(1, 1fr);
-    width: 50%;
-    margin: 100px auto 0 auto;
-    text-align: left;
-    row-gap: 2rem;
-}
 
 .skill-box{
     display: grid;
@@ -50,7 +41,6 @@ p{
 .img-box{
     height: 200px;
     width: 200px;
-    object-fit: cover;
     
 }
 
